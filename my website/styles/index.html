@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Restaurant Web Sitesi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="/images/Preview.png" alt="logo" 
+        width="100"
+        height="500"/>
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        
+        <a href="review.html">Yorumlar</a>
+        <a href="contact.html">Yorum Ekle</a>
+        
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/magnolya.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+    <!--! home section start  -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>BÜYÜLÜ LEZZETLERİN ADRESİ EMİRZADE</h3>
+        <p>
+          Trakya Üniversitesi öğrencilerine özel %30 indirim
+        </p>
+        <a href="#" class="btn">Şimdi sipariş ver</a>
+      </div>
+    </section>
+    <!--! home section end  -->
+
+    <!--! menu section start  -->
+    <section class="menu" id="menu">
+      <h1 class="heading"> <span>menü</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/magnolya.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Magnolya</h3>
+            <div class="price">74.99 TL <span>109.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/cheesecake.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Cheesecake</h3>
+            <div class="price">99.99 TL <span>119.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/emirzade.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Emirzade Tatlısı</h3>
+            <div class="price">199.90 TL <span>249.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/waffle.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Waffle</h3>
+            <div class="price">149.99 TL <span>189.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/supangle.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Supangle</h3>
+            <div class="price">69.99 TL <span>99.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/çay.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Çay</h3>
+            <div class="price">15 TL <span></span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/turkkahvesi.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Türk Kahvesi</h3>
+            <div class="price">59.99 TL <span> </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="/images/latte.jpg" alt="menu" />
+            <span class="menu-category"></span>
+            <h3>Latte</h3>
+            <div class="price">89.99 TL <span></span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! menu section end  -->
+
+    
+
+    <!--! about section start  -->
+    <section class="about" id="about">
+      <h1 class="heading">Hakkımızda <span></span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="/images/aboutnew.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>Neler Yapıyoruz?</h3>
+          <p>
+            2024 yılında kurulduk ve o günden beri müşterilerimize nefis tatlar sunuyoruz. 
+            Emirzade, saygı ve iş tatmininin hakim olduğu bir iş ortamı sağlayarak keyifli bir pastane deneyimi yaşatıyor.
+
+            Profesyonellerden oluşan ekibimiz kaliteli, yaratıcı ve lezzetli mamuller üreterek halkın ihtiyaçlarını karşılamak için elinden geleni yapıyor. İster ayaküstü atıştırmalıklar, isterseniz evinizde ailenizle paylaşacağınız lezzetler için bize gelin. Tam gönlünüze göre ürünlerimiz var.
+          </p>
+          
+          
+        </div>
+      </div>
+    </section>
+    <!--! about section end  -->
+
+    <!--! review section start  -->
+    <section class="review" id="review">
+      <h1 class="heading">Yorumlar <span></span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            Emirzade'nin magnolyasını denemeden geçmeyin! Muhteşem lezzeti ve kıvamıyla beni büyüledi.
+          </p>
+          <img src="/images/emirhoca.png" alt="avatar" class="user" />
+          <h3>Emir Öztürk</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            İlk kez buradaydım ve kesinlikle tekrar geleceğim. Cheesecakeleri harika, kahveleri ise mükemmel.
+          </p>
+          <img src="/images/sydney.jpeg" alt="avatar" class="user" />
+          <h3>Zeynep Ateş</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            Sonunda fakültemizde Emirzade!
+          </p>
+          <img src="/images/chris.jpeg" alt="avatar" class="user" />
+          <h3>Ahmet Yıldız</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! review section end  -->
+
+    <!--! contact section start  -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Yorum <span>Ekleyin</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5963.680510781814!2d26.605502466131615!3d41.63758422129367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b33abbe7844db5%3A0x9140bcc82181086!2sTrakya%20%C3%9Cn.%20M%C3%BChendislik%20Fakultesi!5e0!3m2!1str!2str!4v1715881627877!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>Yorum ve Öneriler</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Adınız" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Emailiniz" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Telefon Numaranız" />
+          </div>
+          <input type="submit" class="btn" value="Yorum Ekle" />
+        </form>
+      </div>
+    </section>
+    <!--! contact section end  -->
+
+    <!--! blogs section start  -->
+    
+    <!--! blogs section end  -->
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Ara" />
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#" class="active">Anasayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Menü</a>
+        
+        <a href="#">Yorumlar</a>
+        <a href="#">Yorum Ekle</a>
+        
+      </div>
+
+      <div class="credit">
+        <span>EMİRZADE</span> | all rigths reserved
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

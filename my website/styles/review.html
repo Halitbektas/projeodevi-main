@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Customer's Reviews</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="/images/Preview.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        
+        <a href="review.html" class="active">Yorumlar</a>
+        <a href="contact.html">Yorum Ekle</a>
+        
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="/images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+    <!--! review section start  -->
+    <section class="review" id="review">
+      <h1 class="heading">Yorumlar <span></span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            Emirzade'nin magnolyasını denemeden geçmeyin! Muhteşem lezzeti ve kıvamıyla beni büyüledi.
+          </p>
+          <img src="/images/emirhoca.png" alt="avatar" class="user" />
+          <h3>Emir Öztürk</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            İlk kez buradaydım ve kesinlikle tekrar geleceğim. Cheesecakeleri harika, kahveleri ise mükemmel.
+          </p>
+          <img src="/images/sydney.jpeg" alt="avatar" class="user" />
+          <h3>Zeynep Ateş</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/images/quote.png" alt="quote" />
+          <p>
+            Sonunda fakültemizde Emirzade!
+          </p>
+          <img src="/images/chris.jpeg" alt="avatar" class="user" />
+          <h3>Ahmet Yıldız</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! review section end  -->
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Ara" />
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Anasayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Menü</a>
+        
+        <a href="#" class="active">Yorumlar</a>
+        <a href="#">Yorum Ekle</a>
+       
+      </div>
+
+      <div class="credit">
+        <span>EMİRZADE</span> | all rigths reserved
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+
+
+  </body>
+</html>
